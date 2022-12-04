@@ -1,0 +1,87 @@
+.container{
+    height: 100vh !important;
+}
+.calculator-container{
+    display: flex !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    align-content: center !important;
+    flex-wrap: wrap !important;
+}
+h1{
+    margin: 0px;
+    text-align: center !important;
+}
+table{
+    width: 60% !important;
+    box-shadow:rgb(2 13 25 / 75%) 3px 12px 20px !important;
+    flex-basis: 50% !important;
+}
+#result{
+    border-width: 0.5px !important;
+    padding: 0px !important;
+    width: 98% !important;
+    height: 2.5rem !important;
+    font-size: 1.5rem !important;
+    padding-left: 0.2rem !important;
+}
+th,td{
+    padding: 0px !important;
+}
+.ClearBtn{
+    background-color: #cc0c0cdb !important;
+    color: white !important;
+}
+.ClearBtn:hover{
+    background-color: #cc0c0cba !important;
+}
+.OperandBtn{
+    background-color: black !important;
+    color: white !important;
+}
+.OperandBtn:hover{
+    background-color:#000000db !important ;
+}
+.OperatorBtn{
+    background-color: #383838 !important;
+    color: white !important;
+}
+.BackSpaceBtn{
+    font-size: 2.2rem !important;
+    text-align: center !important;
+}
+.EvaluateBtn,.BackSpaceBtn{
+    background-color: #4bc3ff !important;
+    color: white !important;
+}
+.EvaluateBtn{
+    font-size: 2.2rem !important;
+}
+.EvaluateBtn,.BackSpaceBtn:hover{
+    background-color: #4bc3ffb5 !important;
+}
+
+.basicoperation{
+    font-size: 2rem !important;
+}
+.maxWidth{
+    font-size: 1.2rem;
+    cursor: pointer !important;
+    width: 100% !important;
+    height: 2.5rem !important;
+}
+
+button{
+    border: none !important;
+}
+
+
+@media all and (max-width:600px){
+    h1{
+        width: 100%;
+    }
+    table{
+        width: 100% !important;
+    }
+}
