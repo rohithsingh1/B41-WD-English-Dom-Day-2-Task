@@ -298,8 +298,6 @@ tbody_tr_6_td_3.appendChild(OperatorBtn9)
 
 
 
-
-
 let ClearBtn=document.querySelector('.ClearBtn')
 let OperatorBtn = document.querySelectorAll('.OperatorBtn')
 OperandBtn = document.querySelectorAll('.OperandBtn')
