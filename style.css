@@ -13,6 +13,9 @@ h1{
     margin: 0px;
     text-align: center !important;
 }
+#description{
+    font-size: 0.7rem;
+}
 table{
     width: 60% !important;
     box-shadow:rgb(2 13 25 / 75%) 3px 12px 20px !important;

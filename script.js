@@ -9,6 +9,14 @@ h1.innerHTML = 'Calculator'
 var title=document.getElementById('title');
 calculatorContainer[0].appendChild(h1)
 
+// description tag
+let ptag=document.createElement('p')
+ptag.setAttribute('id', 'description')
+ptag.innerHTML='basic calculator'
+var description=document.getElementById('description');
+calculatorContainer[0].appendChild(ptag)
+
+
 // created the table element
 let table=document.createElement('table')
 calculatorContainer[0].appendChild(table)
