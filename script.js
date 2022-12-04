@@ -381,7 +381,8 @@ EvaluateBtn.addEventListener('click',Execute)
 
 function Execute(){
     console.log('inside the evaluate btn ===')
-    let res = EvaluateExpression(currentValue.split(''))
+    let res=EvaluateExpression(currentValue.split(''))
+    currentValue = res
     outputDisplay.value = res
 }
 
