@@ -1,6 +1,16 @@
 let OperandBtn;
+let bodytag=document.getElementsByTagName('body')
 
-let calculatorContainer=document.getElementsByClassName('calculator-container')
+
+let container=document.createElement('div')
+container.setAttribute('class', 'container')
+bodytag[0].appendChild(container)
+
+let calculatorContainer=document.createElement('div')
+calculatorContainer.setAttribute('class', 'calculator-container')
+container.appendChild(calculatorContainer)
+
+calculatorContainer=document.getElementsByClassName('calculator-container')
 
 // create title
 let h1=document.createElement('h1')
@@ -219,7 +229,7 @@ tbody_tr_5.appendChild(tbody_tr_5_td_2)
 
 let OperandBtn2=document.createElement('button')
 OperandBtn2.setAttribute('class', 'OperandBtn maxWidth')
-OperandBtn1.setAttribute('id','1')
+OperandBtn2.setAttribute('id','2')
 OperandBtn2.innerHTML='2'
 tbody_tr_5_td_2.appendChild(OperandBtn2)
 
@@ -274,7 +284,7 @@ tbody_tr_6.appendChild(tbody_tr_6_td_3)
 
 let OperatorBtn9=document.createElement('button')
 OperatorBtn9.setAttribute('class', 'EvaluateBtn maxWidth')
-OperandBtn9.setAttribute('id','equal')
+OperatorBtn9.setAttribute('id','equal')
 OperatorBtn9.innerHTML='='
 tbody_tr_6_td_3.appendChild(OperatorBtn9)
 
